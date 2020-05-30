@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color:white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** Food LLC **/
+#header-nav {
+  background-color:darkgrey;
+  border-radius: 0;
+  border: 0;
+  margin-left: 0;
+}
+
+
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  background color: white;
+  float: left;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+  .disp{display: none;}
+ 
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+ {display: none;}
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }.disp{display: none;}
+  /* End Home Page */
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+}
